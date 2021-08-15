@@ -1,0 +1,118 @@
+
+
+
+* {
+   font-family: 'Space Mono', monospace;
+   /*min-height: 100%; */
+}
+
+
+
+#title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 2% ;
+}
+
+
+main{
+    position: absolute;
+    clear: both;
+    min-height: 100vh;
+}
+
+
+
+
+aside{
+    width: 49%;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+article{
+    margin-left: 2%;
+    width:49%;
+    float: left;
+}
+
+article h2{
+    font-size: 64px;
+
+}
+
+article p{
+    font-size: 24px;
+
+}
+
+.cont{
+    margin-top: 2%;
+}
+
+button{
+    background-color: #333333;
+    padding: 19px;
+    color: white;
+    text-transform: uppercase ;
+    font-family: 'Space Mono', monospace;
+}
+
+
+#footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+
+footer p {
+    text-align: center;
+    color: #BDBDBD;
+}
+
+
+
+
+
+
+/* New rules if the window width is smaller than 1024px */
+@media screen and (max-width: 1024px) {
+    main{
+        min-height: 50vh;
+        width: 100%;
+        clear: both;
+    }
+
+      aside{
+        width: 100%;
+      }
+
+      article{
+        width: 100%;
+      }
+
+button{
+     margin: 0 auto;
+    display: block;
+}
+    #footer {
+        position: absolute;
+      bottom: -2%;
+      width: 100%;
+      margin-top: 20px;
+      height: 0.5rem;            /* Footer height */
+    }
+}
+
+
+
+
+
+
+
+
